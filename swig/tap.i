@@ -4,9 +4,9 @@
 %{
 #cgo CFLAGS:-fvisibility=hidden -O2
 #cgo amd64 CFLAGS: -m64
-#cgo amd64 LDFLAGS: -L${SRCDIR}/swig -L${SRCDIR}/wrap
+#cgo amd64 LDFLAGS: -L${SRCDIR}/swig
 #cgo CFLAGS: -I${SRCDIR}/swig
-#cgo LDFLAGS: -static -ltapwrapgo -lwrap -lTapQuoteAPI -liconv -lstdc++
+#cgo LDFLAGS: -static -ltapwrapgo -lTapQuoteAPI -liconv -lstdc++
 %}
 
 %{
