@@ -8,4 +8,3 @@ move ..\..\swig\tap.go ..\..\tap_windows.go
 copy TapQuoteAPI.lib ..\..\swig\TapQuoteAPI.lib
 cd ..\..
 go install -x
-del swig\libtapwrapgo.a swig\TapQuoteAPI.lib
